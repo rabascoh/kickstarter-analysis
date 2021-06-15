@@ -6,13 +6,24 @@ The purpose of this project is to gain insight into the success of various Kicks
 ## Analysis and Challenges
 ### Outcomes Based on Launch Date
 #### Analysis
+To determine the outcomes by launch date, the sucessful, failed and canceled campaigns were grouped by the month the campaign was created. The campaigns were then filtered to only display the Theater parent category. The line chart below illustrates the Theater Outcomes based on Launch Date. 
+
+![Outcomes Based on Launch Date](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 #### Challenges
+No challenges were encounted during analysis due to the datafile including outcomes and date created data for all Theater campaigns. Potential challenges could arise if there were missing data (e.g., missing start dates for some campaigns) or if the start date data were not previously converted to standard date format. If there were missing data, the campaigns would need to be filtered out and the updated base size/missing data exclusion would need to be noted. If the date data were still in UTC format, the following formula would need to be applied: =(((UTC_DATE/60)/60)/24)+DATE(1970,1,1). 
 
 ### Outcomes Based on Goals
 #### Analysis
+To determine the outcomes based on the campaign goals, a new table was created to pull in the number of successful, failed and canceled campaigns, total projects, and the percentage of successful, failed and canceled campaigns in the Plays subcategory across 12 bucketed goal ranges. The line chart below displays percentage of successful, failed and canceled campaigns for each goal range. 
+
+![Outcomes Based on Goal](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 #### Challenges
+I encountered a challenge when creating the new Outcomes Based on Goals table. When calculating the Number of Successful, Failed and Canceled campaigns, the goal range calculations needed to include the lower and upper bounds of the range. Initially I had only included the upper bounds so the table was capturing all data up until the upper bounds. 
+Example Error Formula: =COUNTIFS(Kickstarter!$F:$F,"successful", Kickstarter!$D:$D, "<=4999", Kickstarter!$O:$O,"plays")
+To resolve this error, I added an additional field to the COUNTIFS statement for the lower bounds of the ranges. 
+Example Corrected Formula: =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D, "<=4999", Kickstarter!$O:$O,"plays")
 
 ## Results
 ### Outcomes Based on Launch Date
