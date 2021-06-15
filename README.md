@@ -37,7 +37,7 @@ The following conclusion can be drawn for the analysis:
 
 ### Limitations
 The dataset had the following limitations. 
-* **Data Freshness** | The most recent data captured in this dataset is from 2017. Kickstarter campaign success factors have likely changed in the past four years. I would expect campaigns after March 2020 to behave differently than previous years due to the impace of COVID-19. 
+* **Data Freshness** | The most recent data captured in this dataset is from 2017. Kickstarter campaign success factors have likely changed in the past four years. I would expect campaigns after March 2020 to behave differently than previous years due to the impact of COVID-19. 
 * **Currency** | The dataset includes several currencies (e.g., USD, EUR, GPB), however the currency exchange rates were not factored into the analysis. In particular, for the Outcomes Based on Goals analysis, the dollar values were considered as though they were weighted equally. For future analyses, the dollar values should be converted to one currency prior to analysis to ensure the values are consistent across campaigns and regions. 
 
 ### Additional Tables / Graphs Recommendations
