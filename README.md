@@ -22,24 +22,26 @@ The following two conclusions can be drawn from the analysis:
 
 ### Outcomes Based on Goals
 The following conclusion can be drawn for the analysis: 
-* The most successful Kickstarter campaigns for Plays are campaigns with goals below $15,000 with the highest Percentage Successful (73%) for campaigns with goals between $1,000 to $4,999. 
+* The most successful Kickstarter campaigns for Plays are campaigns with goals below $15,000. The campaigns with the highest Percentage Successful (73%) are those with goals between $1,000 to $4,999. 
 
 ### Limitations
 The dataset had the following limitations. 
-**Data Freshness** | The most recent data captured in this dataset is from 2017. Kickstarter campaign success factors have likely changed in the past four years. I would expect campaigns after March 2020 to behave differently than prior due to the impace of COVID-19. 
-**Currency** | The dataset includes several currencies (e.g., USD, EUR, GPB), however the currency exchange rates were not factored into the analysis. In particular, for the Outcomes Based on Goals analysis, the dollar values were considered as though they were weighted equally. For future analyses, the dollar values should be converted to one currency prior to analysis to ensure the values are consistent across campaigns and regions. 
+* **Data Freshness** | The most recent data captured in this dataset is from 2017. Kickstarter campaign success factors have likely changed in the past four years. I would expect campaigns after March 2020 to behave differently than previous years due to the impace of COVID-19. 
+* **Currency** | The dataset includes several currencies (e.g., USD, EUR, GPB), however the currency exchange rates were not factored into the analysis. In particular, for the Outcomes Based on Goals analysis, the dollar values were considered as though they were weighted equally. For future analyses, the dollar values should be converted to one currency prior to analysis to ensure the values are consistent across campaigns and regions. 
 
 ### Additional Tables / Graphs Recommendations
 
 ### Outcomes Based on Launch Date
 For Outcomes Based on Launch Date, I recommend filtering to the 'play' subcategory rather than looking at the 'theater' parent category for this analysis to better understand how campaigns similar to Louise's performed. 
 
-ADD ALT IMG
+![Alt Outcomes Based on Launch Date]
+(https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Alt_Theater_Outcomes_vs_Launch.png)
 
 ### Outcomes Based on Goals
 For Outcomes Based on Goals, I recommend using a bar or column chart to display the data rather than a line chart due to the x-axis capturing categorical data. A column chart, as pictured below, allows the reader to quickly determine the percentage of successful, failed and canceled campaigns for each goal range. 
 
-ADD ALT IMG
+![Alt Outcomes Based on Goals]
+(https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Alt_Outcomes_vs_Goals.png)
 
 
 
