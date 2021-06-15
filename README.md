@@ -1,10 +1,10 @@
-#Kickstarter Campaign Analysis
+# Kickstarter Campaign Analysis
 
-##Overview of Project
+## Overview of Project
 TO BE ADDED
 
-##Analysis and Challenges
+## Analysis and Challenges
 TO BE ADDED
 
-##Results
+## Results
 TO BE ADDED
