@@ -40,7 +40,7 @@ The dataset had the following limitations.
 * **Data Freshness** | The most recent data captured in this dataset is from 2017. Kickstarter campaign success factors have likely changed in the past four years. I would expect campaigns after March 2020 to behave differently than previous years due to the impact of COVID-19. 
 * **Currency** | The dataset includes several currencies (e.g., USD, EUR, GPB), however the currency exchange rates were not factored into the analysis. In particular, for the Outcomes Based on Goals analysis, the dollar values were considered as though they were weighted equally. For future analyses, the dollar values should be converted to one currency prior to analysis to ensure the values are consistent across campaigns and regions. 
 
-### Additional Tables / Graphs Recommendations
+### Additional Recommendations
 
 ### Outcomes Based on Launch Date
 For Outcomes Based on Launch Date, I recommend filtering to the 'play' subcategory rather than looking at the Theater parent category for this analysis to better understand how campaigns closest to Louise's performed. The Theater parent category includes musicals as well as theater spaces. Given theater space development campaigns likely requires more funding, these campaigns could behave differently than play campaigns. 
