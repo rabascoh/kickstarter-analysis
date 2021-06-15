@@ -20,9 +20,9 @@ To determine the outcomes based on the campaign goals, a new table was created t
 ![Outcomes Based on Goal](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 #### Challenges
-I encountered a challenge when creating the new Outcomes Based on Goals table. When calculating the Number of Successful, Failed and Canceled campaigns, the goal range calculations needed to include the lower and upper bounds of the range. Initially I had only included the upper bounds so the table was capturing all data up until the upper bounds. 
+I encountered a challenge when creating the new Outcomes Based on Goals table. When calculating the Number of Successful, Failed and Canceled campaigns, the goal range calculations needed to include the lower and upper bounds of the range. Initially I had only included the upper bound so each row was capturing all data up until the upper bound noted in that row. 
 Example Error Formula: =COUNTIFS(Kickstarter!$F:$F,"successful", Kickstarter!$D:$D, "<=4999", Kickstarter!$O:$O,"plays")
-To resolve this error, I added an additional field to the COUNTIFS statement for the lower bounds of the ranges. 
+To resolve this error, I added an additional field to the COUNTIFS statement for the lower bound of the ranges. 
 Example Corrected Formula: =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D, "<=4999", Kickstarter!$O:$O,"plays")
 
 ## Results
