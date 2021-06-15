@@ -42,12 +42,12 @@ The dataset had the following limitations.
 
 ### Additional Recommendations
 
-### Outcomes Based on Launch Date
+#### Outcomes Based on Launch Date
 For Outcomes Based on Launch Date, I recommend filtering to the 'play' subcategory rather than looking at the Theater parent category for this analysis to better understand how campaigns closest to Louise's performed. The Theater parent category includes musicals as well as theater spaces. Given theater space development campaigns likely requires more funding, these campaigns could behave differently than play campaigns. 
 
 ![Alt Outcomes Based on Launch Date](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Alt_Theater_Outcomes_vs_Launch.png)
 
-### Outcomes Based on Goals
+#### Outcomes Based on Goals
 For Outcomes Based on Goals, I recommend using a bar or column chart to display the data rather than a line chart due to the x-axis capturing categorical data. A column chart, as pictured below, allows the reader to quickly determine the percentage of successful, failed and canceled campaigns for each goal range. 
 
 ![Alt Outcomes Based on Goals](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Alt_Outcomes_vs_Goals.png)
