@@ -1,7 +1,7 @@
 # Kickstarter Campaign Analysis
 
 ## Overview of Project
-The purpose of this project is to gain insight into the success of various Kickstarter campaigns following Louise's Kickstarter campaign for her play *Fever*. The primary objective was to better understand how campaigns fared in her category, Theater, and determine which launch dates and funding goals were most successful. 
+The purpose of this project is to gain insight into the success of various Kickstarter campaigns following Louise's Kickstarter campaign for her play *Fever*. The primary objective is to better understand how campaigns fared in her category, Theater, and determine which launch dates and funding goals were most successful. 
 
 ## Analysis and Challenges
 ### Outcomes Based on Launch Date
