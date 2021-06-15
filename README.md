@@ -6,7 +6,7 @@ The purpose of this project is to gain insight into the success of various Kicks
 ## Analysis and Challenges
 ### Outcomes Based on Launch Date
 #### Analysis
-To determine the outcomes by launch date, the sucessful, failed and canceled campaigns were grouped by the month the campaign was created. The campaigns were then filtered to only display the Theater parent category. The line chart below illustrates the Theater Outcomes based on Launch Date. 
+To determine the outcomes by launch date, the sucessful, failed and canceled campaigns were grouped by the month the campaign was created ([link to spreadsheet](https://github.com/rabascoh/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx). The campaigns were then filtered to only display the Theater parent category. The line chart below illustrates the Theater Outcomes based on Launch Date. 
 
 ![Outcomes Based on Launch Date](https://github.com/rabascoh/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
